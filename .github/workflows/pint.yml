@@ -10,7 +10,7 @@ jobs:
           with:
             preset: psr12
             verboseMode: true
-            testMode: true
+            testMode: false
             configPath: "pint.json"
             pintVersion: 1.8.0
         - name: Commit changed files
