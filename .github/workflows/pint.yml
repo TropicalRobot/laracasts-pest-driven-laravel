@@ -20,8 +20,5 @@ jobs:
 
             # Optional git params
             commit_options: '--no-verify --signoff'
-
-            # Optional glob pattern of files which should be added to the commit
-            file_pattern: src/\*.js
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
